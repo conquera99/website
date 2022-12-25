@@ -1,3 +1,9 @@
+const compilerOptions = {
+  removeConsole: {
+    exclude: ['error'],
+  },
+};
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
