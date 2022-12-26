@@ -18,62 +18,70 @@ const Page = () => {
         </div>
         <div>Est. 1996</div>
         <div className="mt-10">
-          <a target="_blank" rel="noreferrer" href={`https://facebook.com/${USERNAME}`}>
-            <SocialIcon
-              className="icon"
-              network="facebook"
-              bgColor="transparent"
-              fgColor="currentColor"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href={`https://twitter.com/${USERNAME}`}>
-            <SocialIcon
-              className="icon"
-              network="twitter"
-              bgColor="transparent"
-              fgColor="currentColor"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href={`https://instagram.com/${USERNAME}`}>
-            <SocialIcon
-              className="icon"
-              network="instagram"
-              bgColor="transparent"
-              fgColor="currentColor"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href={`https://500px.com/${USERNAME}`}>
-            <SocialIcon
-              className="icon"
-              network="fivehundredpix"
-              bgColor="transparent"
-              fgColor="currentColor"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href={`https://youtube.com/@${USERNAME}`}>
-            <SocialIcon
-              className="icon"
-              network="youtube"
-              bgColor="transparent"
-              fgColor="currentColor"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href={`https://github.com/${USERNAME}`}>
-            <SocialIcon
-              className="icon"
-              network="github"
-              bgColor="transparent"
-              fgColor="currentColor"
-            />
-          </a>
-          <a target="_blank" rel="noreferrer" href={`https://linkedin.com/in/${USERNAME}`}>
-            <SocialIcon
-              className="icon"
-              network="linkedin"
-              bgColor="transparent"
-              fgColor="currentColor"
-            />
-          </a>
+          <SocialIcon
+            target="_blank"
+            rel="noreferrer"
+            href={`https://facebook.com/${USERNAME}`}
+            className="icon"
+            network="facebook"
+            bgColor="transparent"
+            fgColor="currentColor"
+          />
+          <SocialIcon
+            target="_blank"
+            rel="noreferrer"
+            href={`https://twitter.com/${USERNAME}`}
+            className="icon"
+            network="twitter"
+            bgColor="transparent"
+            fgColor="currentColor"
+          />
+          <SocialIcon
+            target="_blank"
+            rel="noreferrer"
+            href={`https://instagram.com/${USERNAME}`}
+            className="icon"
+            network="instagram"
+            bgColor="transparent"
+            fgColor="currentColor"
+          />
+          <SocialIcon
+            target="_blank"
+            rel="noreferrer"
+            href={`https://500px.com/${USERNAME}`}
+            className="icon"
+            network="fivehundredpix"
+            bgColor="transparent"
+            fgColor="currentColor"
+          />
+          <SocialIcon
+            target="_blank"
+            rel="noreferrer"
+            href={`https://youtube.com/@${USERNAME}`}
+            className="icon"
+            network="youtube"
+            bgColor="transparent"
+            fgColor="currentColor"
+          />
+
+          <SocialIcon
+            target="_blank"
+            rel="noreferrer"
+            href={`https://github.com/${USERNAME}`}
+            className="icon"
+            network="github"
+            bgColor="transparent"
+            fgColor="currentColor"
+          />
+          <SocialIcon
+            target="_blank"
+            rel="noreferrer"
+            href={`https://linkedin.com/in/${USERNAME}`}
+            className="icon"
+            network="linkedin"
+            bgColor="transparent"
+            fgColor="currentColor"
+          />
         </div>
       </div>
     </div>
