@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Balancer from 'react-wrap-balancer';
 import { SocialIcon } from 'react-social-icons';
 
 const USERNAME = 'conquera99';
@@ -7,7 +8,9 @@ const Page = () => {
   return (
     <div className="flex items-center justify-center h-screen">
       <div className="text-center">
-        <h1 className="text-6xl font-light">Hi, I&apos;am Benny</h1>
+        <h1 className="text-6xl font-light">
+          <Balancer>Hi, I&apos;am Benny</Balancer>
+        </h1>
         <div className="font-extralight flex gap-4 justify-center mt-2">
           <Link href="/developer" className="hover:transition-all hover:text-blue-500">
             Fullstack Developer
